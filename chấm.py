@@ -1,3 +1,8 @@
 print("Hello các cậu")
-print("Hi")
-thông tin mới
+print("Hx")
+x=5
+y=3
+if x==y:
+    print("Xàm quá")
+else:
+    print('Đúng ròi')
