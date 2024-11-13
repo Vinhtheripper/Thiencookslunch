@@ -20,44 +20,44 @@
   </property>
   <property name="styleSheet">
    <string notr="true">#page{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 20.41.31.png');
+background-image: url('ui/image/Screenshot 2024-11-13 at 19.32.05.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 #page_2{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 19.32.05.png');
+background-image: url('ui/image/Screenshot 2024-11-13 at 19.40.11.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 #page_3{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 19.40.11.png');
+background-image: url('ui/image/Screenshot 2024-11-13 at 19.40.11.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 #page_4{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 21.30.27.png');
+background-image: url('ui/image/Screenshot 2024-11-13 at 21.30.27.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 #page_5{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 21.31.12.png');
+background-image: url('ui/image/Screenshot 2024-11-13 at 21.31.12.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 #page_6{ 
-background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 21.31.59.png');
+background-image: url('ui/image/Screenshot 2024-11-13 at 21.31.59.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }</string>
   </property>
   <property name="currentIndex">
-   <number>1</number>
+   <number>3</number>
   </property>
   <widget class="QWidget" name="page">
    <widget class="QLabel" name="label">
