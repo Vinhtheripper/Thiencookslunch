@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1280</width>
-    <height>720</height>
+    <height>692</height>
    </rect>
   </property>
   <property name="font">
@@ -20,20 +20,44 @@
   </property>
   <property name="styleSheet">
    <string notr="true">#page{ 
-background-image: url(&quot;C:/Users/ASUS/Downloads/bgr (1) (1).jpg&quot;);
+background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 20.41.31.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }
 #page_2{ 
-background-image: url(&quot;C:/Users/ASUS/Download/gray (1).jpg&quot;);
+background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 19.32.05.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#page_3{ 
+background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 19.40.11.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#page_4{ 
+background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 21.30.27.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#page_5{ 
+background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 21.31.12.png');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#page_6{ 
+background-image: url('/Users/quangvinh/Documents/Pythonfile/Thiencookslunch/ui/image/Screenshot 2024-11-13 at 21.31.59.png');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
 }</string>
   </property>
   <property name="currentIndex">
-   <number>0</number>
+   <number>1</number>
   </property>
   <widget class="QWidget" name="page">
    <widget class="QLabel" name="label">
@@ -60,7 +84,7 @@ background-size: cover;
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>500</x>
+      <x>530</x>
       <y>180</y>
       <width>231</width>
       <height>41</height>
@@ -81,7 +105,7 @@ background-size: cover;
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>490</x>
+      <x>530</x>
       <y>490</y>
       <width>231</width>
       <height>41</height>
@@ -102,8 +126,8 @@ background-size: cover;
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>550</y>
+      <x>690</x>
+      <y>540</y>
       <width>611</width>
       <height>191</height>
      </rect>
@@ -123,128 +147,41 @@ background-size: cover;
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton">
+   <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>1170</x>
-      <y>410</y>
-      <width>111</width>
+      <x>10</x>
+      <y>70</y>
+      <width>91</width>
       <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QToolButton {
-    color: #666666; /* Màu chữ xám nhạt */
-    border: 1px solid rgba(100, 100, 100, 0.3); /* Viền nhẹ hơn */
+     <string notr="true">QCheckBox::indicator:checked {
+    opacity: 0.5;
 }
+QCheckBox::indicator:unchecked {
+    opacity: 0.5;
+}
+
 </string>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</iconset>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>50</y>
-      <width>131</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>20</pointsize>
-     </font>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</iconset>
+      <normaloff>image/37739_cd_record_music_icon 2.png</normaloff>image/37739_cd_record_music_icon 2.png</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>100</width>
-      <height>100</height>
+      <width>70</width>
+      <height>70</height>
      </size>
     </property>
    </widget>
   </widget>
   <widget class="QWidget" name="page_2">
-   <widget class="QLabel" name="label_5">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>70</y>
-      <width>681</width>
-      <height>551</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>C:/Users/ASUS/Downloads/claude1 (2).jpg</pixmap>
-    </property>
-   </widget>
-   <widget class="QToolButton" name="toolButton_2">
-    <property name="geometry">
-     <rect>
-      <x>1180</x>
-      <y>320</y>
-      <width>111</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QToolButton {
-    color: #666666; /* Màu chữ xám nhạt */
-    border: 1px solid rgba(100, 100, 100, 0.3); /* Viền nhẹ hơn */
-}
-</string>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</iconset>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>50</y>
-      <width>131</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>100</width>
-      <height>100</height>
-     </size>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
@@ -315,6 +252,52 @@ background-size: cover;
       <normaloff>C:/Users/ASUS/Downloads/9081389_player_skip_back_icon.png</normaloff>C:/Users/ASUS/Downloads/9081389_player_skip_back_icon.png</iconset>
     </property>
    </widget>
+   <widget class="QCheckBox" name="checkBox_6">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox::indicator:checked {
+    opacity: 0.5;
+}
+QCheckBox::indicator:unchecked {
+    opacity: 0.5;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/37739_cd_record_music_icon 2.png</normaloff>image/37739_cd_record_music_icon 2.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>300</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="page_3">
    <widget class="QLabel" name="label_8">
@@ -331,34 +314,6 @@ background-size: cover;
     </property>
     <property name="pixmap">
      <pixmap>C:/Users/ASUS/Downloads/168 Of The Most Famous Paintings In Art History (1).jpg</pixmap>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="checkBox_3">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>60</y>
-      <width>131</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>100</width>
-      <height>100</height>
-     </size>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
@@ -451,52 +406,37 @@ background-size: cover;
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton_4">
+   <widget class="QCheckBox" name="checkBox_7">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>320</y>
-      <width>101</width>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
       <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QToolButton {
-    color: #666666; /* Màu chữ xám nhạt */
-    border: 1px solid rgba(100, 100, 100, 0.3); /* Viền nhẹ hơn */
+     <string notr="true">QCheckBox::indicator:checked {
+    opacity: 0.5;
 }
+QCheckBox::indicator:unchecked {
+    opacity: 0.5;
+}
+
 </string>
     </property>
     <property name="text">
-     <string>...</string>
+     <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/9081389_player_skip_back_icon.png</normaloff>C:/Users/ASUS/Downloads/9081389_player_skip_back_icon.png</iconset>
+      <normaloff>image/37739_cd_record_music_icon 2.png</normaloff>image/37739_cd_record_music_icon 2.png</iconset>
     </property>
-   </widget>
-   <widget class="QToolButton" name="toolButton_5">
-    <property name="geometry">
-     <rect>
-      <x>1170</x>
-      <y>310</y>
-      <width>111</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QToolButton {
-    color: #666666; /* Màu chữ xám nhạt */
-    border: 1px solid rgba(100, 100, 100, 0.3); /* Viền nhẹ hơn */
-}
-</string>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</iconset>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
     </property>
    </widget>
   </widget>
@@ -607,84 +547,110 @@ background-size: cover;
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox_4">
+   <widget class="QCheckBox" name="checkBox_8">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>60</y>
-      <width>131</width>
-      <height>101</height>
+      <x>10</x>
+      <y>40</y>
+      <width>91</width>
+      <height>81</height>
      </rect>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>20</pointsize>
-     </font>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox::indicator:checked {
+    opacity: 0.5;
+}
+QCheckBox::indicator:unchecked {
+    opacity: 0.5;
+}
+
+</string>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</normaloff>C:/Users/ASUS/Downloads/37739_cd_record_music_icon.png</iconset>
+      <normaloff>image/37739_cd_record_music_icon 2.png</normaloff>image/37739_cd_record_music_icon 2.png</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>100</width>
-      <height>100</height>
+      <width>70</width>
+      <height>70</height>
      </size>
     </property>
    </widget>
-   <widget class="QToolButton" name="toolButton_6">
+  </widget>
+  <widget class="QWidget" name="page_5">
+   <widget class="QCheckBox" name="checkBox_9">
     <property name="geometry">
      <rect>
-      <x>1170</x>
-      <y>280</y>
-      <width>111</width>
+      <x>20</x>
+      <y>40</y>
+      <width>91</width>
       <height>81</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QToolButton {
-    color: #666666; /* Màu chữ xám nhạt */
-    border: 1px solid rgba(100, 100, 100, 0.3); /* Viền nhẹ hơn */
+     <string notr="true">QCheckBox::indicator:checked {
+    opacity: 0.5;
 }
+QCheckBox::indicator:unchecked {
+    opacity: 0.5;
+}
+
 </string>
     </property>
     <property name="text">
-     <string>...</string>
+     <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</normaloff>C:/Users/ASUS/Downloads/9081315_player_skip_forward_icon.png</iconset>
+      <normaloff>image/37739_cd_record_music_icon 2.png</normaloff>image/37739_cd_record_music_icon 2.png</iconset>
     </property>
-   </widget>
-   <widget class="QToolButton" name="toolButton_7">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>280</y>
-      <width>101</width>
-      <height>81</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QToolButton {
-    color: #666666; /* Màu chữ xám nhạt */
-    border: 1px solid rgba(100, 100, 100, 0.3); /* Viền nhẹ hơn */
-}
-</string>
-    </property>
-    <property name="text">
-     <string>...</string>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>C:/Users/ASUS/Downloads/9081389_player_skip_back_icon.png</normaloff>C:/Users/ASUS/Downloads/9081389_player_skip_back_icon.png</iconset>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
     </property>
    </widget>
   </widget>
-  <widget class="QWidget" name="page_5"/>
+  <widget class="QWidget" name="page_6">
+   <widget class="QCheckBox" name="checkBox_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QCheckBox::indicator:checked {
+    opacity: 0.5;
+}
+QCheckBox::indicator:unchecked {
+    opacity: 0.5;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/37739_cd_record_music_icon 2.png</normaloff>image/37739_cd_record_music_icon 2.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
  </widget>
  <resources/>
  <connections/>
